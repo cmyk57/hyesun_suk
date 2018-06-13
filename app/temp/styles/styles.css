@@ -861,16 +861,16 @@ a {
 }
 
 .site-header--is-expanded {
-    background-color: rgba(#01cafe, .55);
-  }
+      background-color: rgba(#01cafe, .55);
+    }
 
 @media (min-width: 800px) {
 
 .site-header {
-	position: fixed;
-    background-color: rgba(#01cafe, .3)
+	   position: fixed;
+    background-color: rgba(1, 132, 254, .85)
 }
-	
+
 	  .site-header--dark {
 		  background-color: rgba(1, 132, 254, .85);
 	  }
@@ -904,7 +904,7 @@ a {
 			-webkit-transform: translateX(0);
 			        transform: translateX(0)
   }
-			
+
 			.site-header--dark .site-header__logo{
 				-webkit-transform: scale(.44);
 				        transform: scale(.44);
