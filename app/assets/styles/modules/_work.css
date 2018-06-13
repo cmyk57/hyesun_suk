@@ -1,0 +1,28 @@
+.work{
+	margin-bottom:98px;
+	
+	@mixin atLarge {
+		margin-bottom:0;
+	}
+
+	&--last {
+		margin-bottom:0;
+	}
+	
+	&__photo{
+		margin-bottom:1.25rem;
+	}
+	
+	&__title {
+		color:$mainPink;
+		font-size:1.5rem;
+		font-weight:300;
+		margin:0;
+	}
+	&__subtitle {
+		color:#333;
+		font-size:0.9375rem;
+		font-weight:300;
+		margin:.25rem 0 1rem 0;
+	}
+}
