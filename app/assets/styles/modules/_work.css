@@ -1,6 +1,6 @@
 .work{
 	margin-bottom:98px;
-	
+
 	@mixin atLarge {
 		margin-bottom:0;
 	}
@@ -8,11 +8,11 @@
 	&--last {
 		margin-bottom:0;
 	}
-	
+
 	&__photo{
-		margin-bottom:1.25rem;
+		
 	}
-	
+
 	&__title {
 		color:$mainPink;
 		font-size:1.5rem;
